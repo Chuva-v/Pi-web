@@ -8,9 +8,15 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
       @livewireStyles
+<style>
+    .navbar-nav {
+      display: flex !important;
+      visibility: visible !important;
+    }
+</style> 
       </head>
     <body>
-
+    
 <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body mb-5" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="{{route('home')}}"><i class="bi bi-cast"></i> Projeto PI</a>
@@ -29,10 +35,11 @@
           <a class="nav-link {{ request()->routeIs('login') ? 'active' : ''}}"  @if(request()->routeIs('login')) aria-current="page" @endif href="{{route('login')}}"><i class="bi bi-lock-fill"></i> Área Restrita</a>
         </li>
       </ul>
+
     </div>
   </div>
 </nav>
-
+    
 <div class="container">
     @yield('content')
 </div>

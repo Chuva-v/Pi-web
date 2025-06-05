@@ -7,10 +7,17 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-      @livewireStyles
-      </head>
-    <body>
+        @livewireStyles
 
+<style>
+    .navbar-nav {
+      display: flex !important;
+      visibility: visible !important;
+    }
+</style> 
+
+    </head>
+    <body>
 <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body mb-5" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="{{route('home')}}"><i class="bi bi-cast"></i> Projeto PI</a>
@@ -33,15 +40,14 @@
     </div>
   </div>
 </nav>
-
-<div class="container">
-    @yield('content')
-</div>
+    <div class="container">
+        @yield('content')
+    </div>
 
 <div class="footer container-fluid text-center">
     &copy; Todos os direitos reservados {{date('Y')}}
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    @livewireScripts
+     @livewireScripts
     </body>
 </html>
