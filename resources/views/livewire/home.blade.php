@@ -8,9 +8,9 @@
                   <div class="about_img"><img src="images/about-img.png"></div>
                </div>
                <div class="col-md-6">
-                  <h1 class="about_taital">Sobre</h1>
-                  <p class="about_text">eu sou eu</p>
-                  <div class="read_bt_1"><a href="#">Read More</a></div>
+                  <h1 class="about_taital">Sobre Nós</h1>
+                  <p class="about_text">...</p>
+                  <div class="read_bt_1"><a href="#">Leia Mais</a></div>
                </div>
             </div>
          </div>
@@ -24,8 +24,8 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="cream_taital">Our Featured Ice Cream</h1>
-                  <p class="cream_text">tempor incididunt ut labore et dolore magna aliqua</p>
+                  <h1 class="cream_taital">Nosso sorvete em destaque</h1>
+                  <p class="cream_text">...</p>
                </div>
             </div>
             <div class="cream_section_2">
@@ -51,7 +51,7 @@
                         <div class="cream_img"><img src="images/img-1.png"></div>
                         <div class="price_text">$10</div>
                         <h6 class="strawberry_text">Strawberry Ice Cream</h6>
-                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                        <div class="cart_bt"><a href="#">Add</a></div>
                      </div>
                   </div>
                </div>
@@ -63,7 +63,7 @@
                         <div class="cream_img"><img src="images/img-3.png"></div>
                         <div class="price_text">$10</div>
                         <h6 class="strawberry_text">Strawberry Ice Cream</h6>
-                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                        <div class="cart_bt"><a href="#">Add</a></div>
                      </div>
                   </div>
                   <div class="col-md-4">
@@ -71,7 +71,7 @@
                         <div class="cream_img"><img src="images/img-4.png"></div>
                         <div class="price_text">$10</div>
                         <h6 class="strawberry_text">Strawberry Ice Cream</h6>
-                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                        <div class="cart_bt"><a href="#">Add</a></div>
                      </div>
                   </div>
                   <div class="col-md-4">
@@ -79,12 +79,12 @@
                         <div class="cream_img"><img src="images/img-5.png"></div>
                         <div class="price_text">$10</div>
                         <h6 class="strawberry_text">Strawberry Ice Cream</h6>
-                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                        <div class="cart_bt"><a href="#">Add</a></div>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
+            <div class="seemore_bt"><a href="#">Mais</a></div>
          </div>
       </div>
       <!-- cream sectuion end -->
@@ -97,7 +97,7 @@
             <div class="row">
                <div class="col-md-12">
                   <h1 class="services_taital">Our Ice Cream Services</h1>
-                  <p class="services_text">tempor incididunt ut labore et dolore magna aliqua</p>
+                  <p class="services_text">...</p>
                </div>
             </div>
             <div class="services_section_2">
@@ -105,19 +105,19 @@
                   <div class="col-md-4">
                      <div class="services_box">
                         <h5 class="tasty_text"><span class="icon_img"><img src="images/icon-1.png"></span>Cookies Ice Cream</h5>
-                        <p class="lorem_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fat </p>
+                        <p class="lorem_text">beta </p>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="services_box">
                         <h5 class="tasty_text"><span class="icon_img"><img src="images/icon-2.png"></span>Cookies Ice Cream</h5>
-                        <p class="lorem_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fat </p>
+                        <p class="lorem_text">beta</p>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="services_box">
                         <h5 class="tasty_text"><span class="icon_img"><img src="images/icon-1.png"></span>Cookies Ice Cream</h5>
-                        <p class="lorem_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fat </p>
+                        <p class="lorem_text">beta</p>
                      </div>
                   </div>
                </div>
@@ -172,92 +172,5 @@
          </div>
       </div>
       <!-- testimonial section end -->
-
-
-      <!-- contact section start -->
-      <div class="contact_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="contact_main">
-                     <h1 class="contact_taital">Contact Us</h1>
-                     <form action="/action_page.php">
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Name" name="Name">
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Email" name="Name">
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
-                        </div>
-                        <div class="form-group">
-                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                        </div>
-                     </form>
-                     <div class="main_bt"><a href="#">SEND</a></div>
-                  </div>
-               </div>
-               <div class="col-md-8">
-                  <div class="location_text">
-                     <ul>
-                        <li>
-                           <a href="#">
-                           <span class="padding_left_10 active"><i class="fa fa-map-marker" aria-hidden="true"></i></span>Making this the first true</a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <span class="padding_left_10"><i class="fa fa-phone" aria-hidden="true"></i></span>Call : +01 1234567890
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <span class="padding_left_10"><i class="fa fa-envelope" aria-hidden="true"></i></span>Email : demo@gmail.com
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="mail_main">
-                     <h3 class="newsletter_text">Newsletter</h3>
-                     <div class="form-group">
-                        <textarea class="update_mail" placeholder="Enter Your Email" rows="5" id="comment" name="Enter Your Email"></textarea>
-                        <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-                     </div>
-                  </div>
-                  <div class="footer_social_icon">
-                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-
-<!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
-         </div>
-      </div>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-
-      <!-- Footer, scripts JS -->
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
-
 
 </div>

@@ -8,9 +8,13 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/clientes', function () { 
-    return view('clientes');
-})->name('clientes');
+Route::get('/produto', function () { 
+    return view('produto');
+})->name('produto');
+
+Route::get('/sobre', function () { 
+    return view('sobre');
+})->name('sobre');
 
 Route::get('/login', function () {
     return view('login');

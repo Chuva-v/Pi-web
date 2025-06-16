@@ -1,4 +1,4 @@
- @extends('layout.auth')
+ @extends('layout.app')
 
  @section('content')
  @livewire('login')

@@ -1,4 +1,5 @@
-<div class="row justify-content-center align-items-center min-vh-100">
+<div>
+    <div class="row justify-content-center align-items-center min-vh-100">
             <div class="col-md-6 col-lg-4">
                 <div class="card shadow">
                     <div class="card-body">
@@ -29,11 +30,9 @@
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-success mb-1">Cadastrar</button>
                             </div>
-
                         </form>
-
-
                     </div>
                 </div>
             </div>
         </div>
+</div>
