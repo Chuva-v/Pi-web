@@ -15,7 +15,7 @@
                   <p class="about_text">Sobre Nós
 
 Somos apaixonados por transformar momentos simples em lembranças deliciosas!
-No [Nome da Sua Marca], acreditamos que um bom sorvete tem o poder de refrescar o dia, aquecer o coração e arrancar sorrisos sinceros.
+Acreditamos que um bom sorvete tem o poder de refrescar o dia, aquecer o coração e arrancar sorrisos sinceros.
 
 Desde o início, nosso propósito sempre foi oferecer muito mais do que sobremesas: criamos experiências geladas com ingredientes selecionados, receitas artesanais e sabores que agradam todos os gostos — do clássico chocolate ao exótico maracujá com gengibre.
 

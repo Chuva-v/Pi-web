@@ -30,7 +30,7 @@
       @livewireStyles
    </head>
    <body>
-    @include('layout.menu')
+    @livewire('menu-app')
      <div class="container">
         @yield('content')
      </div> 
