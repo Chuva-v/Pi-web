@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
+use App\Livewire\Produtos;
 
 #Route::get('/',[Controller::class,'home'])->name('home');
 Route::get('/', function () { 
@@ -20,15 +21,19 @@ Route::get('/sobre', function () {
     return view('sobre');
 })->name('sobre');
     
+Route::get('/produto', function() {
+    return view('produto');
+});
+    
 Route::middleware(['auth'])->group(function () {
   
     Route::get('/dashboard', function () {
       return view('dashboard');
     })->name('dashboard');
     
-    Route::get('/produto', function () { 
-      return view('produto');
-    })->name('produto');
+#    Route::get('/produto', function () { 
+#      return view('produto');
+#    })->name('produto');
     
 });
 

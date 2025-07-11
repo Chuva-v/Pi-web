@@ -16,9 +16,7 @@
                      <li class="nav-item">
                         <a class="nav-link  {{ request()->routeIs('sobre') ? 'active' : ''}}" @if(request()->routeIs('sobre')) aria-current="page" @endif href="{{route('sobre')}}">Sobre</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link  {{ request()->routeIs('produto') ? 'active' : ''}}" @if(request()->routeIs('produto')) aria-current="page" @endif href="{{route('produto')}}">Sorvetes</a>
-                     </li>
+
                      <li class="nav-item" >
                        <a  class="nav-link  {{ request()->routeIs('login') ? 'active' : ''}}" @if(request()->routeIs('login')) aria-current="page" @endif href="{{route('login')}}">Login</a>
                      </li>
