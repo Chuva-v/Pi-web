@@ -34,7 +34,7 @@
          </div>
          
          @if(request()->routeIs('dashboard'))
-          @livewire('banner')
+          @include('layout.banner')
          @endif
          
       </div>

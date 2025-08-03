@@ -6,14 +6,6 @@ use Livewire\Component;
 
 class Cart extends Component
 {
-    public function render()
-    {
-        return view('livewire.cart');
-    }
-}
-
-class Cart extends Component
-{
     public $items = [];
 
     protected $listeners = ['cartUpdated' => 'loadCart'];
@@ -25,7 +17,7 @@ class Cart extends Component
         $user = auth()->user();
         $sessionId = session()->getId();
 
-        $cart = Cart::with('items.product')
+        $cart = Cart::with('items.produto')
             ->where($user ? ['user_id' => $user->id] : ['session_id' => $sessionId])
             ->where(function ($q) {
                 $q->whereNull('user_id')->where('last_activity', '>=', now()->subHour())

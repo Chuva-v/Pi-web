@@ -3,16 +3,16 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+use App\Models\Produto;
 
-
-class ProductsList extends Component
+class ProdutosList extends Component
 {
     public function render()
     {
-        return view('livewire.products-list', ['products' => Product::all()]);
+        return view('livewire.produtos-list', ['produtos' => Produto::all()]);
     }
 
-    public function addToCart($productId)
+    public function addToCart($produtoId)
     {
         $user = auth()->user();
         $sessionId = session()->getId();
@@ -25,7 +25,7 @@ class ProductsList extends Component
         $cart->update(['last_activity' => now()]);
 
         CartItem::updateOrCreate(
-            ['cart_id' => $cart->id, 'product_id' => $productId],
+            ['cart_id' => $cart->id, 'produto_id' => $produtoId],
             ['quantity' => DB::raw('quantity + 1')]
         );
 

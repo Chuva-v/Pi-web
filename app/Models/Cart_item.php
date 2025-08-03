@@ -8,8 +8,8 @@ class Cart_item extends Model
 {
     protected $fillable = ['cart_id', 'produto_id', 'quantity'];
 
-    public function product()
+    public function produto()
     {
-        return $this->belongsTo(Product::class);
+        return $this->belongsTo(Produto::class);
     }
 }

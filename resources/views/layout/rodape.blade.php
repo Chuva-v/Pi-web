@@ -1,4 +1,3 @@
-<div>
         <!-- contact section start -->
 
       <div class="contact_section layout_padding">
@@ -40,5 +39,3 @@
          </div>
       </div>
       <!-- contact section end -->
-
-</div>

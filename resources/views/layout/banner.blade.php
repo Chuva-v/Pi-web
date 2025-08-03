@@ -1,4 +1,3 @@
-<div>
            <!-- banner section start --> 
          <div class="banner_section layout_padding">
 
@@ -64,4 +63,3 @@
             </div>
          </div>
          <!-- banner section end -->
-</div>

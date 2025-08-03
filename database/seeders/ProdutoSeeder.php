@@ -641,5 +641,15 @@ class ProdutoSeeder extends Seeder
             ]
 // fim dos complementos
           ]);
+        Produto::truncate(); //se não queser que apague algo que ja tem no banco, apague essa linha.
+        Produto::insert([
+          [
+            'name'=>'i',
+            'email'=>'ivan@gmail.com',
+            'password'=>'1',
+            'created_at'=>now(),
+            'updated_at'=>now()
+            ]
+          ]);
     }
 }
