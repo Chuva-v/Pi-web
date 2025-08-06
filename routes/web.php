@@ -5,7 +5,6 @@ use App\Http\Controllers;
 use App\Http\Controllers\ProdutoController;
 use App\Livewire\Produtos;
 
-#Route::get('/',[Controller::class,'home'])->name('home');
 Route::get('/', function () { 
     return view('home');
 })->name('home');
