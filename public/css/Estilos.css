@@ -1,0 +1,23 @@
+.comgrid{
+ display: grid;
+ grid-template-columns: 50% 50%;
+ grid-template-rows: auto auto;
+ place-items: center;
+}
+.acai{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 90px;
+ height: auto;
+}
+.acai img{
+ width: 50%;
+ height: auto;
+}
+.acai p{
+ margin: 0;
+}
+.redo{
+ border-radius: 20px;
+}

@@ -24,10 +24,6 @@ Route::get('/sobre', function () {
 Route::get('/produto', function() {
     return view('produto');
 })->name('produto');
-
-Route::get('/produtos-list', function() {
-    return view('produtos-list');
-})->name('produtos-list');
     
 Route::get('/produtos/{id}', [ProdutoController::class, 'show'])->name('produto.show');
 
